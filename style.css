@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:ital,wght@0,400;0,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.landing{
+    width: 100%;
+    height: 100vh;
+    background: url(./assets/Naruto\ Opener.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.click{
+    cursor: pointer;
+}
+
+.body{
+    background-color: lightgray;
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin-left: 30px;
+    height: 100px;
+    padding: 0 20px;
+    font-size: 50px;
+    font-weight: 900;
+    padding-top: 50px;
+    padding-left: 35px;
+}
+
+
+.nav__link{
+    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 3rem;
+    padding-left: 40px;
+}
+
+.btn{
+    border: 2px solid #242424;
+    border-radius: 0% 22% 0% 14% / 10% 13% 10% 20%;
+    font-size: 36px;
+    font-weight: 400;
+    margin: 6px;
+    width:  190px;
+    height: 60px;
+    background-color: transparent;
+}
+
+#btn:active{
+    font-size: 40px;
+}
